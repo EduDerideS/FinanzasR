@@ -11,7 +11,7 @@ token <- Sys.getenv("GITHUB_PAT")
 gitcreds::gitcreds_delete()
 gitcreds::gitcreds_set()
 
-git add probando.R
+git add prueba2.R
 git commit --amend --no-edit
 
 #Listo
